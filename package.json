@@ -1,0 +1,51 @@
+{
+  "name": "signup",
+  "version": "1.0.0",
+  "description": "Signup using Stripe payment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch --progress --colors",
+    "dist": "rimraf public/dist/* && NODE_ENV=production webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renesugar/signup.git"
+  },
+  "keywords": [
+    "membership",
+    "payment",
+    "stripe"
+  ],
+  "author": "rene.sugar@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renesugar/signup/issues"
+  },
+  "homepage": "https://github.com/renesugar/signup#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "@babel/runtime-corejs2": "^7.4.2",
+    "@babel/runtime-corejs3": "^7.4.2",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "material-design-icons": "^3.0.1",
+    "vinyl-transform": "^1.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "acorn": "^6.1.1",
+    "core-js": "^3.0.0"
+  }
+}

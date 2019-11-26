@@ -1,0 +1,10 @@
+$btn-color: #25a5df;
+$progress-color: #25a5df;
+$background-color: #25a5df;
+$background-image: "public/images/backgrounds/bg.jpg"; /* set to "no" to use background-color */
+$navbar-brand-logo: "../images/logo.png";
+$retina-navbar-brand-logo: "../images/logo@2x.png";
+
+:root {
+    --background-image: #{$background-image};
+}

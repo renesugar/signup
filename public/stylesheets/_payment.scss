@@ -1,0 +1,127 @@
+
+#payment-paymentRequest {
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.payment fieldset {
+  border: 1px solid #000000;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.payment label {
+  width: 100%;
+}
+
+.payment .input {
+  width: 100%;
+}
+
+.payment .input.StripeElement--focus,
+.payment .input:focus {
+  color: #000000;
+  border-color: #000000;
+}
+.payment .input.StripeElement--invalid {
+  border-color: #ee0606;
+}
+
+.payment input:-webkit-autofill,
+.payment select:-webkit-autofill {
+  -webkit-text-fill-color: #fce883;
+  transition: background-color 100000000s;
+  -webkit-animation: 1ms void-animation-out;
+}
+
+.payment .StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.payment select.input,
+.payment select:-webkit-autofill {
+  background-image: url('data:image/svg+xml;utf8,<svg width="10px" height="5px" viewBox="0 0 10 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M5.35355339,4.64644661 L9.14644661,0.853553391 L9.14644661,0.853553391 C9.34170876,0.658291245 9.34170876,0.341708755 9.14644661,0.146446609 C9.05267842,0.0526784202 8.92550146,-2.43597394e-17 8.79289322,0 L1.20710678,0 L1.20710678,0 C0.930964406,5.07265313e-17 0.707106781,0.223857625 0.707106781,0.5 C0.707106781,0.632608245 0.759785201,0.759785201 0.853553391,0.853553391 L4.64644661,4.64644661 L4.64644661,4.64644661 C4.84170876,4.84170876 5.15829124,4.84170876 5.35355339,4.64644661 Z" id="shape"></path></svg>');
+  background-position: 100%;
+  background-size: 10px 5px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 20px;
+}
+
+.payment .card-only {
+  display: block;
+}
+.payment .payment-request-available {
+  display: none;
+}
+
+.payment .error svg .base {
+  fill: #fff;
+}
+
+.payment .error svg .glyph {
+  fill: #9169d8;
+}
+
+.payment .error .message {
+  color: #fff;
+}
+
+.payment .success .icon .border {
+  stroke: #bfaef6;
+}
+
+.payment .success .icon .checkmark {
+  stroke: #fff;
+}
+
+.payment .success .title {
+  color: #fff;
+}
+
+.payment .success .message {
+  color: #cdd0f8;
+}
+
+.payment .success .reset path {
+  fill: #fff;
+}
+
+.div__payment-name {
+  width: 100%;
+}
+
+.div__payment-email {
+  width: 100%;
+  flex: 6;
+}
+
+.div__payment-phone {
+  width: 100%;
+  flex: 2;
+}
+
+.div__payment-address {
+  width: 100%;
+}
+
+.div__payment-city {
+  width: 100%;
+  flex: 6;
+}
+
+.div__payment-state {
+  width: 100%;
+  flex: 1;
+}
+
+.div__payment-zip {
+  width: 100%;
+  flex: 2;
+}
+
+#payment-card {
+  width: 100%;
+}
