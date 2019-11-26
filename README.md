@@ -12,8 +12,6 @@ A signup example to test Stripe.
 
 ./deploy.sh your-path-here
 
-./deploy.sh ~/sites/test/
-
 
 - turn off browser caching when developing
 
